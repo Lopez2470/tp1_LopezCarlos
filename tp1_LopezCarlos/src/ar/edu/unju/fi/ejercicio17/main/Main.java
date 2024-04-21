@@ -71,10 +71,11 @@ public class Main {
                 System.out.println("Error: Debe ingresar numeros enteros.");
                 scanner.nextLine(); 
             }   finally {
-                System.out.println("       Fin");
-                scanner.close();
+               // System.out.println("       Fin");
+                
             }
         }
+        scanner.close();
 	}
 	
 	
